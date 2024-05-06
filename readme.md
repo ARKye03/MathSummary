@@ -12,7 +12,13 @@ The file is divided into two sections:
 
 ## Usage
 
-To view the contents of this file, you will need a viewer that can render `typst` files. Once you have such a viewer, you can open the file in it to see the formulas.
+To view the results, download the file from releases and open it in a PDF viewer.
+
+Otherwise, you can clone the repository and compile the file yourself. To compile the file, you will need [Typst](https://typst.app/), then run the following command:
+
+```sh
+typst compile src/main.typ
+```
 
 ## Contributing
 
