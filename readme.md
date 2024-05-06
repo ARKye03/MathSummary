@@ -6,7 +6,7 @@ Formulas, report, and notes for making my life easier. (I hope, it depends if I 
 
 The file is divided into two sections:
 
-1. **Integrals**: This section lists common integral formulas. Each formula is presented in the form $\u{222B}f(x) dx = F(x) + c$, where $f(x)$ is the function being integrated, $F(x)$ is the antiderivative, and $c$ is the constant of integration.
+1. **Integrals**: This section lists common integral formulas. Each formula is presented in the form $\int f(x) dx = F(x) + c$, where $f(x)$ is the function being integrated, $F(x)$ is the antiderivative, and $c$ is the constant of integration.
 
 2. **Derivatives**: This section lists common derivative formulas. Each formula is presented in the form $f'(x) = F(x)$, where $f'(x)$ is the derivative of the function $f(x)$, and $F(x)$ is the derivative.
 
