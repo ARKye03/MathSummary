@@ -1,6 +1,8 @@
 name: Render pdf
-on: 
-  push
+on:
+  push:
+    tags:
+      - '*'
 jobs:
   render-paper:
     runs-on: ubuntu-latest
