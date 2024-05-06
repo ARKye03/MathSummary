@@ -11,8 +11,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: typst-community/setup-typst@v3
-        with:
-          cache-dependency-path: requirements.typ
+        # with:
+        #   cache-dependency-path: requirements.typ
       - run: mkdir -p dist
       - run: typst compile src/main.typ dist/main.pdf
       - uses: ncipollo/release-action@v1
