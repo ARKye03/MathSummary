@@ -6,7 +6,7 @@ $\u{222B}d x = x + c$
 
 $\u{222B}k d x = k x + c$
 
-$\u{222B}x^n d x = x^(n+1)/(n+1) + c$
+$\u{222B}x^n d x = x^(n+1)/(n+1) + c$, $n != -1$
 
 $\u{222B}1/x d x = ln|x| + c$
 
@@ -117,8 +117,68 @@ $(1/f(x))' = (-f'(x))/f(x)^2$
 
 $(f(g(x)))' = f'(g(x)) * g'(x)$
 
-#set page(columns: 1)
+#set page(columns: 2)
 
 = Trig Identities
 
-$sin^2(x) + cos^2(x) = 1$
++ $sin^2(x) + cos^2(x) = 1$
+  + $sin^2(x) = 1 - cos^2(x)$
+  + $cos^2(x) = 1 - sin^2(x)$
+
++ $tan(x) * cot(x) = 1$
+  + $tan(x) = sin(x)/cos(x)$
+    + $tan(x) = 1/cot(x)$
+
+  + $cot(x) = cos(x)/sin(x)$
+    + $cot(x) = 1/tan(x)$
+
++ $1 + tan^2(x) = 1/(cos^2(x))$
+  + $1 + cot^2(x) = 1/(sin^2(x))$
+
++ $sec(x) = 1/cos(x)$
+  + $csc(x) = 1/sin(x)$
+
++ $sec(x) * tan(x) = sin(x)/cos(x) = tan(x)$
+  + $csc(x) * cot(x) = cos(x)/sin(x) = cot(x)$
+
+= Sum and Difference Identities
+
++ $sin(x \u{00B1} y) = sin(x) * cos(y) \u{00B1} cos(x) * sin(y)$
+
++ $cos(x \u{00B1} y) = cos(x) * cos(y) \u{2213} sin(x) * sin(y)$
+
++ $tan(x \u{00B1} y) = (tan(x) \u{00B1} tan(y))/(1 \u{2213} tan(x)tan(y))$
+
++ $cot(x \u{00B1} y) = (cot(x)cot(y) \u{2213} 1)/(cot(x) \u{00B1} cot(y))$
+
+#colbreak()
+
+= Double Angle Identities
+
++ $sin(2x) = 2sin(x)cos(x)$
+
++ $cos(2x) = cos^2(x) - sin^2(x)$
+  + $cos(2x) = -1 + 2cos^2(x)$
+  + $cos(2x) = 1 - 2sin^2(x)$
+
++ $tan(2x) = 2tan(x)/(1 - tan^2(x))$
+
++ $cot(2x) = (cot^2(x) - 1)/(2cot(x))$
+
+= Negative Angle Identities
+
+$sin(-x) = -sin(x)$
+
+$cos(-x) = cos(x)$
+
+$tan(-x) = -tan(x)$
+
+$cot(-x) = -cot(x)$
+
+= Half Angle Identities
+
++ $sin(x/2) = \u{00B1} sqrt((1 - cos(x))/2)$
+
++ $cos(x/2) = \u{00B1} sqrt((1 + cos(x))/2)$
+
++ $tan(x/2) = sin(x)/(1 + cos(x)) = (1 - cos(x))/sin(x)$
