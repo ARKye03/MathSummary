@@ -20,6 +20,11 @@ Otherwise, you can clone the repository and compile the file yourself. To compil
 typst compile src/main.typ
 ```
 
-## Contributing
+### Workflows used
+
+- [Create Release](https://github.com/marketplace/actions/create-release)
+- [Setup Typst](https://github.com/marketplace/actions/setup-typst)
+
+### Contributing
 
 If you find any errors in the formulas, or if you have any formulas that you would like to add, please feel free to make a pull request.
