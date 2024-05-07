@@ -117,7 +117,7 @@ $(1/f(x))' = (-f'(x))/f(x)^2$
 
 $(f(g(x)))' = f'(g(x)) * g'(x)$
 
-#set page(columns: 2)
+#set page(columns: 2, margin: (right: 10pt))
 
 = Trig Identities
 
