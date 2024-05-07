@@ -14,4 +14,4 @@ All notable changes to this project will be documented in this file.
 
 - Nothing fixed :)
 
-### [1.1.1] - 06/05/2024
+### [1.1.2] - 06/05/2024
