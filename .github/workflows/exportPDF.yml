@@ -14,8 +14,11 @@ jobs:
         # with:
         #   cache-dependency-path: requirements.typ
       - run: mkdir -p dist
-      - run: typst compile src/main.typ dist/main.pdf
+      - name: Extract tag name
+        id: get_version
+        run: echo ::set-output name=VERSION::${GITHUB_REF#refs/tags/}
+      - run: typst compile src/main.typ dist/MathSummary-${{ steps.get_version.outputs.VERSION }}.pdf
       - uses: ncipollo/release-action@v1
         with:
-          artifacts: "dist/main.pdf"
+          artifacts: "dist/MathSummary-${{ steps.get_version.outputs.VERSION }}.pdf"
           bodyFile: "CHANGELOG.md"
