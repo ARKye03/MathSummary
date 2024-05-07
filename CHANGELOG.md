@@ -4,14 +4,14 @@ All notable changes to this project will be documented in this file.
 
 ## Added
 
-- Nothing added :(
+- Added a formula used in cases of integration by parts
 
 ## Changed
 
-- Changed right margin in identities page.
+- Formatted code in identities for better readability
 
 ## Fixed
 
-- Nothing fixed :)
+- ~
 
-### [1.1.2] - 06/05/2024
+### [1.1.3] - 07/05/2024
