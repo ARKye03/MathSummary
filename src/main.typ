@@ -42,6 +42,8 @@ $\u{222B}k f(x) d x = k \u{222B}f(x) d x$
 
 $\u{222B}f(x) d x = -\u{222B}f(-x) d x$
 
+$\u{222B}u d v = u v - \u{222B}v d u$
+
 #colbreak(weak: true)
 
 = Composite Integrals
@@ -122,24 +124,24 @@ $(f(g(x)))' = f'(g(x)) * g'(x)$
 = Trig Identities
 
 + $sin^2(x) + cos^2(x) = 1$
-  + $sin^2(x) = 1 - cos^2(x)$
-  + $cos^2(x) = 1 - sin^2(x)$
+  - $sin^2(x) = 1 - cos^2(x)$
+  - $cos^2(x) = 1 - sin^2(x)$
 
 + $tan(x) * cot(x) = 1$
   + $tan(x) = sin(x)/cos(x)$
-    + $tan(x) = 1/cot(x)$
+    - $tan(x) = 1/cot(x)$
 
   + $cot(x) = cos(x)/sin(x)$
-    + $cot(x) = 1/tan(x)$
+    - $cot(x) = 1/tan(x)$
 
 + $1 + tan^2(x) = 1/(cos^2(x))$
-  + $1 + cot^2(x) = 1/(sin^2(x))$
+  - $1 + cot^2(x) = 1/(sin^2(x))$
 
 + $sec(x) = 1/cos(x)$
-  + $csc(x) = 1/sin(x)$
+  - $csc(x) = 1/sin(x)$
 
 + $sec(x) * tan(x) = sin(x)/cos(x) = tan(x)$
-  + $csc(x) * cot(x) = cos(x)/sin(x) = cot(x)$
+  - $csc(x) * cot(x) = cos(x)/sin(x) = cot(x)$
 
 = Sum and Difference Identities
 
@@ -158,8 +160,8 @@ $(f(g(x)))' = f'(g(x)) * g'(x)$
 + $sin(2x) = 2sin(x)cos(x)$
 
 + $cos(2x) = cos^2(x) - sin^2(x)$
-  + $cos(2x) = -1 + 2cos^2(x)$
-  + $cos(2x) = 1 - 2sin^2(x)$
+  - $cos(2x) = -1 + 2cos^2(x)$
+  - $cos(2x) = 1 - 2sin^2(x)$
 
 + $tan(2x) = 2tan(x)/(1 - tan^2(x))$
 
