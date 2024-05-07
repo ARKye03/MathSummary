@@ -48,7 +48,7 @@ $\u{222B}u d v = u v - \u{222B}v d u$
 
 = Composite Integrals
 
-$\u{222B} u^n d u d x = u^(n+1)/(n+1) + c$
+$\u{222B} u^n d u d x = u^(n+1)/(n+1) + c$, $n != -1$
 
 $\u{222B} (d u)/u d x = ln|u| + c$
 

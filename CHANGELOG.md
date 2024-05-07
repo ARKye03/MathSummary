@@ -4,14 +4,14 @@ All notable changes to this project will be documented in this file.
 
 ## Added
 
-- Added a formula used in cases of integration by parts
+- ~
 
 ## Changed
 
-- Formatted code in identities for better readability
+- ~
 
 ## Fixed
 
-- ~
+- Fixed missing condition in composite integral $\int u^n d u d x = u^(n+1)/(n+1) + c$, $n \neq -1$
 
-### [1.1.3] - 07/05/2024
+### [1.1.4] - 07/05/2024
