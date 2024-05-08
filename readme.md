@@ -4,17 +4,33 @@ Formulas, report, and notes for making my life easier. (I hope, it depends if I 
 
 ## Contents
 
-The file is divided into two sections:
+The pdf file is like a math treasure trove, full of formulas and tricks for calculus and trigonometry. Here's what you'll find inside:
 
-1. **Integrals**: This section lists common integral formulas. Each formula is presented in the form $\int f(x) dx = F(x) + c$, where $f(x)$ is the function being integrated, $F(x)$ is the antiderivative, and $c$ is the constant of integration.
+1. **Integrals**: These are formulas for finding the area under curves. Think of it as finding the total value of something changing over time.
 
-2. **Derivatives**: This section lists common derivative formulas. Each formula is presented in the form $f'(x) = F(x)$, where $f'(x)$ is the derivative of the function $f(x)$, and $F(x)$ is the derivative.
+2. **More Integrals**: Here, we tackle trickier integrals involving sums, differences, and even constants multiplied by functions.
+
+3. **Integrals with a Twist**: Ever heard of using a different variable for integrals? This section shows you how.
+
+4. **Derivatives**: This is all about rates of change. Whether it's the speed of something moving or how something is growing, these formulas have you covered.
+
+5. **More Derivatives**: We dive into derivatives of more complex functions, like products, quotients, and composites.
+
+6. **Trig Tricks**: These are your go-to formulas for playing with triangles and circles. They help simplify trigonometric expressions.
+
+7. **Adding and Subtracting Angles**: Here, we have formulas for breaking down angles into simpler parts.
+
+8. **Double Trouble**: Double angles mean double the fun! These formulas make dealing with double angles a breeze.
+
+9. **Facing Negatives**: Negative angles? No problem. These formulas help you handle them like a pro.
+
+10. **Halving the Angle**: Sometimes you need to cut an angle in half. These formulas show you how to do it neatly.
 
 ## Usage
 
 To view the results, download the file from releases and open it in a PDF viewer.
 
-Otherwise, you can clone the repository and compile the file yourself. To compile the file, you will need [Typst](https://typst.app/), then run the following command:
+Otherwise, you can clone the repository and compile the file yourself. To compile the file, you will need [Typst](https://typst.app/), then run the following command in root directory of the repository:
 
 ```sh
 typst compile src/main.typ
