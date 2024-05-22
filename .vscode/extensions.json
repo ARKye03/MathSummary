@@ -1,6 +1,8 @@
 {
     "recommendations": [
         "nvarner.typst-lsp",
-        "tomoki1207.pdf"
+        "tomoki1207.pdf",
+        "jnoortheen.nix-ide",
+        "brettm12345.nixfmt-vscode"
     ]
 }
