@@ -14,4 +14,4 @@ All notable changes to this project will be documented in this file.
 
 - ~
 
-### [1.1.4] - 07/05/2024
+### [1.1.5] - 08/06/2024
