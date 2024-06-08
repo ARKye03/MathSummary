@@ -28,7 +28,7 @@ $\u{222B}csc(x)cot(x) d x = -csc(x) + c$
 
 $\u{222B}1/(1+x^2) d x = arctan(x) + c$
 
-$\u{222B}-1/(1+x^2) d x = $ arccot(x)$ + c$
+$\u{222B}-1/(1+x^2) d x = $ arccot$(x) + c$
 
 $\u{222B}1/sqrt(1-x^2) d x = arcsin(x) + c$
 
@@ -99,7 +99,7 @@ $csc(x) = -csc(x)cot(x)$
 
 $arctan(x) = 1/(1+x^2)$
 
-arccot(x) $ = -1/(1+x^2)$
+arccot$(x)  = -1/(1+x^2)$
 
 $arcsin(x) = 1/sqrt(1-x^2)$
 
@@ -184,3 +184,6 @@ $cot(-x) = -cot(x)$
 + $cos(x/2) = \u{00B1} sqrt((1 + cos(x))/2)$
 
 + $tan(x/2) = sin(x)/(1 + cos(x)) = (1 - cos(x))/sin(x)$
+
+
+#set page(columns: 1)
