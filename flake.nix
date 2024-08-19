@@ -8,12 +8,14 @@
       (system:
         let
           pkgs = nixpkgs.legacyPackages.${system};
+          nix-utils = with pkgs;[
+            nixd
+            nixpkgs-fmt
+          ];
           shell = pkgs.mkShell {
             nativeBuildInputs = with pkgs.buildPackages; [
               typst
-              nil
-              nixpkgs-fmt
-            ];
+            ] ++ nix-utils;
           };
         in
         {
