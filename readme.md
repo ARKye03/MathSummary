@@ -34,7 +34,19 @@ Otherwise, you can clone the repository and compile the file yourself. To compil
 
 ```sh
 typst compile src/main.typ
+# Result in src/main.pdf
 ```
+
+Or if you use nix:
+
+```sh
+nix build
+# Result in result/main.pdf
+```
+
+## Development 
+
+Install typst, or use `nix develop` with the provided `flake.nix` to enter my devShell.
 
 ### Workflows used
 
