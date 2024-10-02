@@ -15,6 +15,7 @@
           shell = pkgs.mkShell {
             nativeBuildInputs = with pkgs.buildPackages; [
               typst
+              git-cliff
             ] ++ nix-utils;
           };
           mathPDF = pkgs.stdenv.mkDerivation {
